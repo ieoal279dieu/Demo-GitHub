@@ -1,0 +1,126 @@
+ 
+*{margin: 0; padding: 0;}
+
+.noidungthe.noidungtheshow {
+    opacity: 1;
+    visibility: visible;
+    /*transform: scale(1); Modal zoom*/
+    /*transform-origin: 0% 100%;
+	transform: rotate(0deg) scale(1);*/
+	/*transform: translateX(0px); Modal từ left đi vào*/
+	/*transform: scale(0);
+	transform: rotate(0deg); Modal zoom và quay*/
+	top:0;
+	margin-top: 0;
+}
+
+.noidungthe {
+    width: 500px;
+    height: 220px;
+    background: #f76868;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    /*transform: scale(0);  Modal zoom*/
+	/*transform-origin: 0% 100%;
+	transform: rotate(45deg) scale(3);*/
+	/*transform: translateX(-200px); Modal từ left đi vào*/
+	/*transform: scale(0.5);
+	transform: rotate(360deg); Modal zoom và quay*/
+    transition: 0.4s;
+    margin-top: -110px;
+    margin-left: -250px;
+    top:-100%;
+}
+.gradiant {
+    background: #808080cc;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.gradiant.gradiantshow {
+    opacity: 1;
+    visibility: visible;
+}
+
+.textnoidung {
+    padding: 2%;
+}
+
+.buttonclose {
+    width: 71px;
+    background: gray;
+    height: 30px;
+    text-align: center;
+    padding: 1px;
+    margin-left: 43%;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+h3 {
+    background: #ab9898;
+    height: 43px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.buttonClick {
+    border: 1px solid gray;
+    background: white;
+    font-size: 17px;
+    width: 150px;
+    padding: 10px 11px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.phanduoi {
+    width: 1000px;
+    margin: auto;
+    background: #ff000094;
+    height: 220px;
+}
+
+.phantrai {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 86px;
+    border: 1px solid gray;
+}
+
+.phanphai {
+    font-size: 15px;
+    float: left;
+    width: 50%;
+    background: #91e6d3;
+    height: 100%;
+    padding: 50px;
+}
+
+.phantren {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    background: #ff00003d;
+} 
